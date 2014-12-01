@@ -21,6 +21,9 @@
 		0D3761E21A2CB19F00F12DFA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3761C41A2CB19F00F12DFA /* UIKit.framework */; };
 		0D3761EA1A2CB19F00F12DFA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D3761E81A2CB19F00F12DFA /* InfoPlist.strings */; };
 		0D3761EC1A2CB19F00F12DFA /* SFXPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3761EB1A2CB19F00F12DFA /* SFXPlayerTests.m */; };
+		0D3761F91A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D3761F81A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav */; };
+		0D3761FC1A2CDB8300F12DFA /* SFXPlayerEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3761FB1A2CDB8300F12DFA /* SFXPlayerEditViewController.m */; };
+		0D3761FF1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3761FE1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		0D3761E71A2CB19F00F12DFA /* SFXPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFXPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		0D3761E91A2CB19F00F12DFA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D3761EB1A2CB19F00F12DFA /* SFXPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFXPlayerTests.m; sourceTree = "<group>"; };
+		0D3761F81A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Elevator Ding-SoundBible.com-685385892.wav"; path = "../../Elevator Ding-SoundBible.com-685385892.wav"; sourceTree = "<group>"; };
+		0D3761FA1A2CDB8300F12DFA /* SFXPlayerEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFXPlayerEditViewController.h; sourceTree = "<group>"; };
+		0D3761FB1A2CDB8300F12DFA /* SFXPlayerEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFXPlayerEditViewController.m; sourceTree = "<group>"; };
+		0D3761FD1A2CE6F700F12DFA /* SFXPlayerHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFXPlayerHelpViewController.h; sourceTree = "<group>"; };
+		0D3761FE1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFXPlayerHelpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,10 @@
 				0D3761CF1A2CB19F00F12DFA /* SFXPlayerAppDelegate.h */,
 				0D3761D01A2CB19F00F12DFA /* SFXPlayerAppDelegate.m */,
 				0D3761D21A2CB19F00F12DFA /* Main.storyboard */,
+				0D3761FD1A2CE6F700F12DFA /* SFXPlayerHelpViewController.h */,
+				0D3761FE1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m */,
+				0D3761FA1A2CDB8300F12DFA /* SFXPlayerEditViewController.h */,
+				0D3761FB1A2CDB8300F12DFA /* SFXPlayerEditViewController.m */,
 				0D3761D51A2CB19F00F12DFA /* SFXPlayerViewController.h */,
 				0D3761D61A2CB19F00F12DFA /* SFXPlayerViewController.m */,
 				0D3761D81A2CB19F00F12DFA /* Images.xcassets */,
@@ -126,6 +138,7 @@
 		0D3761C71A2CB19F00F12DFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D3761F81A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav */,
 				0D3761C81A2CB19F00F12DFA /* SFXPlayer-Info.plist */,
 				0D3761C91A2CB19F00F12DFA /* InfoPlist.strings */,
 				0D3761CC1A2CB19F00F12DFA /* main.m */,
@@ -231,6 +244,7 @@
 			files = (
 				0D3761D91A2CB19F00F12DFA /* Images.xcassets in Resources */,
 				0D3761CB1A2CB19F00F12DFA /* InfoPlist.strings in Resources */,
+				0D3761F91A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav in Resources */,
 				0D3761D41A2CB19F00F12DFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +266,9 @@
 			files = (
 				0D3761CD1A2CB19F00F12DFA /* main.m in Sources */,
 				0D3761D11A2CB19F00F12DFA /* SFXPlayerAppDelegate.m in Sources */,
+				0D3761FF1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m in Sources */,
 				0D3761D71A2CB19F00F12DFA /* SFXPlayerViewController.m in Sources */,
+				0D3761FC1A2CDB8300F12DFA /* SFXPlayerEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +475,7 @@
 				0D3761F11A2CB19F00F12DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D3761F21A2CB19F00F12DFA /* Build configuration list for PBXNativeTarget "SFXPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +484,7 @@
 				0D3761F41A2CB19F00F12DFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

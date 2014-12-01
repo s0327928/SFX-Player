@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SFXPlayerAppDelegate.h"
 
 @interface SFXPlayerViewController : UIViewController
 - (IBAction)btnHelp:(id)sender;
@@ -14,5 +15,6 @@
 - (IBAction)btnOne:(id)sender;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *btnMode;
 - (IBAction)btnMode:(id)sender;
+- (IBAction)btnDing:(id)sender;
 
 @end

@@ -40,6 +40,7 @@
                                     <barButtonItem title="Help" width="96" id="nkZ-aE-6fc">
                                         <connections>
                                             <action selector="btnHelp:" destination="BYZ-38-t0r" id="GgS-ox-71b"/>
+                                            <segue destination="Hlr-ov-2gY" kind="modal" id="d8r-fH-miv"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -55,6 +56,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btnOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkz-bf-UFP"/>
+                                    <segue destination="PGY-qu-JDn" kind="modal" id="Xbm-oD-kOl"/>
                                 </connections>
                             </button>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Umc-Fr-Yah">
@@ -92,10 +94,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Ding">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnDing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmV-WG-fUT"/>
+                                </connections>
                             </button>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPJ-es-CA7">
                                 <rect key="frame" x="64" y="224" width="152" height="105"/>
@@ -211,10 +216,10 @@
             </objects>
             <point key="canvasLocation" x="-55" y="-40"/>
         </scene>
-        <!--View Controller-->
+        <!--Player Help View Controller-->
         <scene sceneID="fLF-51-o0J">
             <objects>
-                <viewController id="Hlr-ov-2gY" sceneMemberID="viewController">
+                <viewController id="Hlr-ov-2gY" customClass="SFXPlayerHelpViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SOx-dj-aFZ"/>
                         <viewControllerLayoutGuide type="bottom" id="FE8-hb-Wbs"/>
@@ -229,6 +234,9 @@
                                 <state key="normal" title="Done">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnDone:" destination="Hlr-ov-2gY" eventType="touchUpInside" id="89q-v9-RjD"/>
+                                </connections>
                             </button>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HBe-od-t0V">
                                 <rect key="frame" x="0.0" y="58" width="1024" height="710"/>
@@ -245,10 +253,10 @@
             </objects>
             <point key="canvasLocation" x="-70" y="980"/>
         </scene>
-        <!--View Controller-->
+        <!--Player Edit View Controller-->
         <scene sceneID="89o-11-56v">
             <objects>
-                <viewController id="PGY-qu-JDn" sceneMemberID="viewController">
+                <viewController id="PGY-qu-JDn" customClass="SFXPlayerEditViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gDE-tT-Twb"/>
                         <viewControllerLayoutGuide type="bottom" id="2j2-uL-dbQ"/>
@@ -263,6 +271,9 @@
                                 <state key="normal" title="&lt; Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="btnBack:" destination="PGY-qu-JDn" eventType="touchUpInside" id="zzU-3J-WEh"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AUDIO FILE SELECTION STUFF GOES HERE !!!!!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8P7-qO-l5I">
                                 <rect key="frame" x="115" y="130" width="724" height="21"/>

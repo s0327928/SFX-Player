@@ -22,6 +22,8 @@ bool editmode = YES;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    //[self.btnOne setTitle:btnOneTitle forState:UIControlStateNormal];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,9 +39,7 @@ bool editmode = YES;
     
     if (editmode == YES)
     {
-        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle: nil];
-        SFXPlayerViewController *lvc = [storyboard instantiateViewControllerWithIdentifier:@"SFXPlayerEditViewController"];
-        [self.navigationController pushViewController:lvc animated:YES];
+       
         
     }
     else
@@ -64,5 +64,10 @@ bool editmode = YES;
         editmode = YES;
         self.btnMode.title = @"Edit Mode";
     }
+}
+
+- (IBAction)btnDing:(id)sender {
+    
+    
 }
 @end

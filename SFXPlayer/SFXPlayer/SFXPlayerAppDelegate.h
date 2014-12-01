@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+NSString *btnOneTitle;
+
+
 @interface SFXPlayerAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+
+
 
 @end
