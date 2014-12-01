@@ -248,6 +248,9 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="Webview" destination="HBe-od-t0V" id="5Io-iC-blh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1B-Ap-41H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

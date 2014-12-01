@@ -10,5 +10,6 @@
 
 @interface SFXPlayerHelpViewController : UIViewController
 - (IBAction)btnDone:(id)sender;
+@property (strong, nonatomic) IBOutlet UIWebView *Webview;
 
 @end

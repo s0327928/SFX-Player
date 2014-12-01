@@ -13,6 +13,7 @@
 @end
 
 @implementation SFXPlayerHelpViewController
+@synthesize Webview;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self loadlocalFile];
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,4 +52,21 @@
     
     [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+
+- (void)loadlocalFile
+{
+    //check if iphone or ipad
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        //load file
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"Help" ofType:@"docx"];
+        NSURL *targetURL = [NSURL fileURLWithPath:path];
+        NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
+        
+        [Webview loadRequest:request];
+        
+        
+    }
+}
+
 @end

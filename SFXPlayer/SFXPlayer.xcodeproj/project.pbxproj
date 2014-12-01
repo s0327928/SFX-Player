@@ -24,6 +24,7 @@
 		0D3761F91A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D3761F81A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav */; };
 		0D3761FC1A2CDB8300F12DFA /* SFXPlayerEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3761FB1A2CDB8300F12DFA /* SFXPlayerEditViewController.m */; };
 		0D3761FF1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3761FE1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m */; };
+		0D3762011A2CEEA300F12DFA /* Help.docx in Resources */ = {isa = PBXBuildFile; fileRef = 0D3762001A2CEEA300F12DFA /* Help.docx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		0D3761FB1A2CDB8300F12DFA /* SFXPlayerEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFXPlayerEditViewController.m; sourceTree = "<group>"; };
 		0D3761FD1A2CE6F700F12DFA /* SFXPlayerHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFXPlayerHelpViewController.h; sourceTree = "<group>"; };
 		0D3761FE1A2CE6F700F12DFA /* SFXPlayerHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFXPlayerHelpViewController.m; sourceTree = "<group>"; };
+		0D3762001A2CEEA300F12DFA /* Help.docx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Help.docx; path = ../../Help.docx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		0D3761C71A2CB19F00F12DFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D3762001A2CEEA300F12DFA /* Help.docx */,
 				0D3761F81A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav */,
 				0D3761C81A2CB19F00F12DFA /* SFXPlayer-Info.plist */,
 				0D3761C91A2CB19F00F12DFA /* InfoPlist.strings */,
@@ -246,6 +249,7 @@
 				0D3761CB1A2CB19F00F12DFA /* InfoPlist.strings in Resources */,
 				0D3761F91A2CD3BC00F12DFA /* Elevator Ding-SoundBible.com-685385892.wav in Resources */,
 				0D3761D41A2CB19F00F12DFA /* Main.storyboard in Resources */,
+				0D3762011A2CEEA300F12DFA /* Help.docx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
